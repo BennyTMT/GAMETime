@@ -15,4 +15,4 @@ and models running in different GPUs will go and draw task from "prompts".  deta
 ./script/build.sh
 
 # To myself 
-Remove OpenAI key when publish this repo, and check hisotry branch. 
+Remove OpenAI key when publish this repo, and check history branches. 
