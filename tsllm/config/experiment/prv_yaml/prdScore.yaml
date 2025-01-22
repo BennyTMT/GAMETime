@@ -1,0 +1,4 @@
+task: prdScore
+data_path: "./datasets/nba_timeseries/23-24/chart/"
+num_of_sampels: 100
+game_name: ''

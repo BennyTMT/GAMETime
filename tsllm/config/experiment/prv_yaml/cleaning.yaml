@@ -1,0 +1,2 @@
+task: cleaning
+data_path: "./datasets/nba_timeseries/22-23/chart/"

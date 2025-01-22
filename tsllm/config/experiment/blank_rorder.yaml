@@ -1,0 +1,6 @@
+preprocess: percent
+# task: blank_rorder_chess
+task: blank_rorder
+data_path: "./datasets/nba_timeseries/23-24-fakename/"
+num_of_sampels: 100
+game_name: ''

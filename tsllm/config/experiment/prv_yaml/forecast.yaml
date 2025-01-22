@@ -1,0 +1,14 @@
+task: forecast
+data_path: "./datasets/nba_timeseries/23-24/chart/"
+num_of_sampels: 100
+game_name: ''
+
+# only three Scenarios : 
+# w score   1 , w wp  1 
+# w/o score 0, w wp   1 
+# w/o score 0, w/o wp 0 
+# score: 1
+# wp: 1
+# 0 is none future evetns, 0.5 is 50%, 1 is 100% 
+# f_events: 1
+# Totoal : 3 * 3 = 9

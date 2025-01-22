@@ -1,0 +1,5 @@
+preprocess: percent
+task: matching
+data_path: "./datasets/nba_timeseries/23-24/chart/"
+num_of_sampels: 10
+game_name: ''

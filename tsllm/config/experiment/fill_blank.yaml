@@ -1,0 +1,7 @@
+preprocess: percent
+task: fill_blank
+# task: fill_blank_nba
+# data_path: "./datasets/nba_timeseries/23-24/chart/"
+data_path: "./datasets/nba_timeseries/23-24-fakename/"
+num_of_sampels: 100
+game_name: ''

@@ -1,0 +1,13 @@
+task: build-blank_rorder-openw
+
+# data_path: "./datasets/nfl_timeseries/fake_name_games/"
+# data_path: "./datasets/nba_timeseries/24-25-fakename/"
+
+# data_path: "./datasets/openw/crypto/"
+# data_path: "./datasets/openw/trading/"
+# data_path: "./datasets/openw/health_US/"
+data_path: "./datasets/openw/energy/"
+
+cutting_date: "Aug 01, 2025"
+num_of_sampels: 1000
+game_name: ''
