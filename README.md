@@ -13,3 +13,6 @@ and models running in different GPUs will go and draw task from "prompts".  deta
 
 ## How to setup prompts
 ./script/build.sh
+
+#Remind to myself 
+Remove OpenAI key when publish this repo, and check hisotry branch. 
