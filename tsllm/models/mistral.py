@@ -16,17 +16,17 @@ class Mistral(torch.nn.Module):
         super(Mistral, self).__init__()
         # python3 ./tsllm/main.py experiment=blank_rorder model=mistral_8B
         if config.model.name == 'mistral_8B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Ministral-8B-Instruct-2410"
+            self.model_path = ""
             self.save_file = 'm8.txt'
             self.load_vllm_model(1)
         # python3 ./tsllm/main.py experiment=blank_rorder model=mistral_7x8B
         if config.model.name == 'mistral_7x8B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Mixtral-8x7B-Instruct-v0.1"
+            self.model_path = ""
             self.save_file = 'm7x8.json'
             self.load_vllm_model(4)
         # python3 ./tsllm/main.py experiment=blank_rorder model=mistral_small
         if config.model.name == 'mistral_small':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Mistral-Small-Instruct-2409"
+            self.model_path = ""
             self.save_file = 'msml.txt'
             self.load_vllm_model(2)
             
