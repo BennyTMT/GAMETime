@@ -9,10 +9,10 @@ class PHI(torch.nn.Module):
         super(PHI, self).__init__()
         print('model name is', config.model.name )
         if  config.model.name == 'phi-4':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/phi-4"
+            self.model_path = ""
             self.save_file = 'phi-4.txt'
         if config.model.name == 'phi-3p5':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Phi-3-medium-4k-instruct"
+            self.model_path = ""
             self.save_file = 'phi-3p5.txt'
 
         self.init_model(config)
