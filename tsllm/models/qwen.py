@@ -10,17 +10,17 @@ class Qwen(torch.nn.Module):
     def __init__(self, config):
         super(Qwen, self).__init__()
         if config.model.name == 'qwen_7B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Qwen2.5-7B-Instruct"
+            self.model_path = ""
             self.save_file = 'q7.txt'
         if config.model.name == 'qwen_14B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Qwen2.5-14B-Instruct"
+            self.model_path = ""
             self.save_file = 'q14.txt'  
         if config.model.name == 'qwen_32B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Qwen2.5-32B-Instruct"
+            self.model_path = ""
             self.save_file = 'q32.json'
         #  python3 ./tsllm/main.py experiment=blank_rorder model=qwen_72B
         if config.model.name == 'qwen_72B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Qwen2.5-72B-Instruct"
+            self.model_path = ""
             self.save_file = 'q72.json'
             
         self.fuc_llm = self.query_llm
