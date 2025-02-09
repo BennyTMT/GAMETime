@@ -9,13 +9,13 @@ class LLama(torch.nn.Module):
         super(LLama, self).__init__()
         print('model name is', config.model.name )
         if  config.model.name == 'llama3p1_70B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Llama-3.1-70B-Instruct"
+            self.model_path = ""
             self.save_file = 'l70.json'
         if config.model.name == 'llama3p1_8B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Meta-Llama-3.1-8B-Instruct"
+            self.model_path = ""
             self.save_file = 'l8.txt'
         if config.model.name == 'llama2_7B':
-            self.model_path = "/scratch/wtd3gz/pretrain_model/Llama-2-7b-chat-hf"
+            self.model_path = ""
             self.save_file = 'l7.txt'
             
         self.init_model(config)
