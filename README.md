@@ -1,8 +1,10 @@
 # Can Language Models Infer Event Descriptions from Time Series?
 
-## Dataset 
-We propose the dataset **"GAMETime: Generating And Modeling Events from TIME series"**, which has been submitted along with the paper to **ACL**.
+## Dataset📖
+We propose the dataset **"GAMETime: Generating And Modeling Events from TIME series"**, which has been submitted along with the paper to **ACL**. This dataset contains a **real-valued time series** of **1.7 million timestamps** along with corresponding **event sequences**.
 
+## Setup 🔧
+For our environment configuration and required additional packages, please refer to **"environment.yml"**.
 
 ## How to run the repo 
 ./batch.sh  and ./slow.sh  is built to submit task in ./script 
