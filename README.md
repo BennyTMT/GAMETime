@@ -6,13 +6,13 @@ We propose the dataset **"GAMETime: Generating And Modeling Events from TIME ser
 ## Setup 🔧
 For our environment configuration and required additional packages, please refer to **"environment.yml"**.
 
-## How to run the repo 
-./batch.sh  and ./slow.sh  is built to submit task in ./script 
-
+## Run Experiments 💁🏼
+./batch.sh (or ./slow.sh) is the shell built to submit tasks in **./script/**
+Our main configuration files about LLMs and experiments are located in **"./tsllm/config/"**.
 
 ## How to setup prompts
-./script/build.sh
-And the prompt will be saved in "./prompt/" dir
+run **./script/build.sh** and change the conditions in the shell script for different experiments 
+And the prompts will be/have been saved in "./prompt/" 
 
 ## How to set up LLMs
 The setup of different LLMs is in ./tsllm/models/
