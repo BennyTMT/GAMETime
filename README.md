@@ -1,4 +1,8 @@
-# Benchmarking Multi-modal Reasoning: Inferring Events from Time Series
+# Can Language Models Infer Event Descriptions from Time Series?
+
+## Dataset 
+We propose the dataset **"GAMETime: Generating And Modeling Events from TIME series"**, which has been submitted along with the paper to **ACL**.
+
 
 ## How to run the repo 
 ./batch.sh  and ./slow.sh  is built to submit task in ./script 
