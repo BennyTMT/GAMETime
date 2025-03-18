@@ -1,9 +1,9 @@
-# Can Language Models Infer Event Descriptions from Time Series?
+# Inferring Event Descriptions from Time Series with Language Models
 
 ![Events Reasoning](./script/pipline.png)
 
 ## Dataset📖
-We propose the dataset **"GAMETime: Generating And Modeling Events from TIME series"**, which has been submitted along with the paper to **ACL**. This dataset contains a **real-valued time series** of **1.7 million timestamps** along with corresponding **event sequences**.
+We curate a dataset and propose our benchmark **"GAMETime: Generating And Modeling Events from TIME series"**. This dataset contains a **real-valued time series** of **1.7 million timestamps** along with corresponding **event sequences**.
 
 ## Setup 🔧
 For our environment configuration and required additional packages, please refer to **"environment.yml"**.
