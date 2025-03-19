@@ -23,6 +23,6 @@ The setup of different LLMs is in ./tsllm/models/
 
 
 ## How to use multi-gpus to run llama3.1 70B
-It is very simple, I firstly build my prompts and they will be save in "prompts" 
+It is quit straightforward, we firstly build prompts and save them in "prompts" directory. 
 
-and models running in different GPUs will go and draw task from "prompts".  details shown in "./tsllm/execute.py"
+Then, models running in different GPUs will go and draw task from "prompts". (Details are shown in "./tsllm/execute.py")
