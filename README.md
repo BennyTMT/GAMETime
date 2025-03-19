@@ -32,4 +32,5 @@ Please email the authors directly. To simplify the process, just send the follow
 ```bash
   "Hello, GAMETime."
   [Your Name]
+
 We will provide you with a direct download link, aiming to complete the process within a minute.
