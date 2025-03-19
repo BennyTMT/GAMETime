@@ -37,3 +37,6 @@ Please email the author directly. To simplify the process, just send the followi
 We will provide you with a download link, **aiming to complete the process within a minute.**
 
 Or you can find the script in the resource file to download the HTML and extract the data yourself.
+
+![Game Events](./resource/event.png)
+
