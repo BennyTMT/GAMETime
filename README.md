@@ -1,5 +1,4 @@
-# Aren't You Curious 
-## about the events behind the time series?
+# Aren't You Curious about the Events behind the Time Series?
 ![Events Reasoning](./script/pipline.png)
 
 ### "Inferring Event Descriptions from Time Series with Language Models" [Paper Link](https://arxiv.org/pdf/2503.14190).
