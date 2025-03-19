@@ -1,4 +1,4 @@
-# Don't You Wanna know what's hidden in the Numbers?
+# Don't You Wanna Know What's Hidden in the Numbers?
 ![Events Reasoning](./script/pipline.png)
 
 ### "Inferring Event Descriptions from Time Series with Language Models" [Paper Link](https://arxiv.org/pdf/2503.14190).
