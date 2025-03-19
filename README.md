@@ -38,5 +38,5 @@ We will provide you with a download link, **aiming to complete the process withi
 
 Or you can find the script in the resource file to download the HTML and extract the data yourself.
 
-![Game Events](./resource/event.png)
+<img src="./resource/event.png" alt="Game Events" width="500"/>
 
