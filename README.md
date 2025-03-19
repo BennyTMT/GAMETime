@@ -29,6 +29,7 @@ Then, models running in different GPUs will go and draw task from "prompts". (De
 
 ## If you're interested in our sports data, 
 Please email the authors directly. To simplify the process, just send the following:
+```bash
   "Hello, GAMETime."
   [Your Name]
 We will provide you with a direct download link, aiming to complete the process within a minute.
