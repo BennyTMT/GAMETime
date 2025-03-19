@@ -26,3 +26,9 @@ The setup of different LLMs is in ./tsllm/models/
 It is quit straightforward, we firstly build prompts and save them in "prompts" directory. 
 
 Then, models running in different GPUs will go and draw task from "prompts". (Details are shown in "./tsllm/execute.py")
+
+## If you're interested in our sports data, 
+Please email the authors directly. To simplify the process, just send the following:
+  "Hello, GAMETime."
+  [Your Name]
+We will provide you with a direct download link, aiming to complete the process within a minute.
