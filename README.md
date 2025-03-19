@@ -1,4 +1,4 @@
-# Don't You Wanna Know What's Hidden in the Numbers?
+# Aren't You Curious about the Events behind the real-valued Time Series?
 ![Events Reasoning](./script/pipline.png)
 
 ### "Inferring Event Descriptions from Time Series with Language Models" [Paper Link](https://arxiv.org/pdf/2503.14190).
