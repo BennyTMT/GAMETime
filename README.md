@@ -28,7 +28,7 @@ It is quit straightforward, we firstly build prompts and save them in "prompts" 
 Then, models running in different GPUs will go and draw task from "prompts". (Details are shown in "./tsllm/execute.py")
 
 ## If you're interested in our sports data, 
-Please email the authors directly. To simplify the process, just send the following:
+Please email the author directly. To simplify the process, just send the following:
 ```bash
   "Hello, GAMETime."
   [Your Name]
