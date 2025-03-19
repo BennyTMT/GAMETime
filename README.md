@@ -16,16 +16,16 @@ Our main configuration files about LLMs and experiments are located in **"./tsll
 ## How to setup prompts
 run **./script/build.sh** and change the conditions in the shell script for different experiments 
 
-And the prompts will be/have been saved in "./prompt/" 
+And the prompts will be/have been saved in **"./prompt/"**
 
 ## How to set up LLMs
-The setup of different LLMs is in ./tsllm/models/
+The setup of different LLMs is in **./tsllm/models/**
 
 
 ## Tips: How to use multi-gpus to run 70B LMs
 It is quit straightforward, we firstly build prompts and save them in "prompts" directory. 
 
-Then, models running in different GPUs will go and draw task from "prompts". (Details are shown in "./tsllm/execute.py")
+Then, models running in different GPUs will go and draw task from "prompts". (Details are shown in **"./tsllm/execute.py"**)
 
 ## If you're interested in our sports data 🛎️
 Please email the author directly. To simplify the process, just send the following:
