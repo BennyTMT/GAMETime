@@ -93,7 +93,7 @@ Please email the author directly (e.g., `wtd3gz@virginia.edu`). To simplify the 
   [Your Name]
 ```
 
-We will provide you with a download link, **aiming to complete the process within a minute.**
+We will provide you with a download link, **aiming to complete the process within 1 minute.**
 
 Or you can find the script in the resource file to download the HTML and extract the data yourself.
 
