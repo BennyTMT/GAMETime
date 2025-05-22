@@ -57,6 +57,11 @@ sbatch scripts-sports-nba/nba-GRPO.sh
 sbatch scripts-sports-nfl/nfl-GRPO.sh
 ```
 
+### Results
+Our two-stage post-training enables a 1.5B model without domain-specific reasoning ability to outperform its distillation source—and in some tasks, even solve OpenAI’s o1.
+
+<img src="./resource/post-train.png" alt="Post-training Results" width="500"/>
+
 ## Run Inferring 💁🏼
 ### Setup Prompts 
 run **./script/build.sh** and change the conditions in the shell script for different experiments 
