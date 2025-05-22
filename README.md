@@ -13,7 +13,7 @@ For details regarding the experimental environment setup, you might want ot refe
 
 ### Warm-up Stage: Knowledge Distillation
 
-For models that initially lack any understanding or reasoning ability in the domain (e.g., sports)— such as Qwen2.5 1.5B — **knowledge distillation** is a necessary prerequisite before applying reinforcement learning. The input data is structured as follows:
+For models that initially **lack any understanding or reasoning ability in the domain** (e.g., sports)— such as Qwen2.5 1.5B — **knowledge distillation** is a necessary prerequisite before applying reinforcement learning. The input data is structured as follows:
 
 ```json
 [
