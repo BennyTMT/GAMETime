@@ -64,7 +64,8 @@ Our two-stage post-training enables a 1.5B model without domain-specific reasoni
 
 (Rewards with training step can be found in Paper`s Fig 6)
 
-#### We believe most reasoning tasks can be improved through this two-stage Post-training: 1. Fill knowledge gaps and 2. Self-improvement.
+#### We believe most reasoning tasks can be improved through this two-stage Post-training: 
+1. Fill knowledge gaps and 2. Self-improvement.
 
 
 ## Run Inferring 💁🏼
