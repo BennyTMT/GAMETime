@@ -1,7 +1,7 @@
-# Are You Curious about the Events behind Time Series?
+# Inferring Events from Time Series using Language Models
 ![Events Reasoning](./script/pipline.png)
 
-### "Inferring Event Descriptions from Time Series with Language Models" [Paper Link](https://arxiv.org/pdf/2503.14190).
+### [Paper Link](https://arxiv.org/pdf/2503.14190).
 ## Dataset📖
 We curate a dataset and propose our benchmark **"GAMETime: Generating And Modeling Events from TIME series"**. This dataset contains a **real-valued time series** of **1.7 million timestamps** along with corresponding **event sequences**.
 
