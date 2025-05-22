@@ -80,7 +80,7 @@ We curate a dataset and propose our benchmark **"GAMETime: Generating And Modeli
 
 ## If you're interested in our Events-Times data 🛎️
 
-<img src="./resource/event.png" alt="Game Events" width="250"/>
+<img src="./resource/event.png" alt="Game Events" width="300"/>
 
 Please email the author directly (e.g., `wtd3gz@virginia.edu`). To simplify the process, just send the following:
 ```bash
