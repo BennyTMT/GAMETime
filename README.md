@@ -57,6 +57,8 @@ sbatch scripts-sports-nba/nba-GRPO.sh
 sbatch scripts-sports-nfl/nfl-GRPO.sh
 ```
 
+
+
 ### Results
 Our two-stage post-training enables a 1.5B model without domain-specific reasoning ability to **outperform its distillation source** ([DeepSeek-R1-Distill-Qwen-32B]([https://github.com/huggingface/open-r1](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B))) and in some tasks, even **approach OpenAI’s o1**. 
 
