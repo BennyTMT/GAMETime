@@ -9,11 +9,11 @@ For our environment configuration and required additional packages, please refer
 Our pipeline for GRPO training is built upon the [Open-r1](https://github.com/huggingface/open-r1) framework, for which we express our sincere appreciation. 
 For details regarding the experimental environment setup, you might want ot refer to [Open-r1](https://github.com/huggingface/open-r1).
 
-## Post-training Significantly Improves Event Inference
+## Post-training Significantly Improves Event Inference🚀
 
 ### Warm-up Stage: Knowledge Distillation
 
-For models that initially **lack any understanding or reasoning ability in the domain** (e.g., sports)— such as Qwen2.5 1.5B — **knowledge distillation** is a necessary prerequisite before applying reinforcement learning. The input data is structured as follows:
+For models that initially **lack** any understanding or reasoning ability in the domain (e.g., sports)— such as Qwen2.5 1.5B — knowledge distillation is a **necessary prerequisite** before applying reinforcement learning. The input data is structured as follows:
 
 ```json
 [
@@ -63,6 +63,9 @@ The setup of different LLMs is in **./tsllm/models/**
 We curate a dataset and propose our benchmark **"GAMETime: Generating And Modeling Events from TIME series"**. This dataset contains a **real-valued time series** of **1.7 million timestamps** along with corresponding **event sequences**.
 
 ## If you're interested in our sports data 🛎️
+
+<img src="./resource/event.png" alt="Game Events" width="250"/>
+
 Please email the author directly (e.g., `wtd3gz@virginia.edu`). To simplify the process, just send the following:
 ```bash
   "Hello, GAMETime."
@@ -73,5 +76,4 @@ We will provide you with a download link, **aiming to complete the process withi
 
 Or you can find the script in the resource file to download the HTML and extract the data yourself.
 
-<img src="./resource/event.png" alt="Game Events" width="200"/>
 
