@@ -9,7 +9,7 @@ For our environment configuration and required additional packages, please refer
 Our pipeline for GRPO training is built upon the [Open-r1](https://github.com/huggingface/open-r1) framework, for which we express our sincere appreciation. 
 For details regarding the experimental environment setup, you might want ot refer to [Open-r1](https://github.com/huggingface/open-r1).
 
-## Post-training Significantly Improves Event Inference🚀
+## 🚀🚀 Post-training Significantly Improves Event Inference
 
 ### Warm-up Stage: Knowledge Distillation
 
@@ -30,6 +30,11 @@ For models that initially **lack** any understanding or reasoning ability in the
 ```
 (The 'process' is distilled solution from DeepSeek-R1-Distill-Qwen-32B and 'instruction' is our question.) 
 
+To start the warm-up stage (Slurm), use the following command:
+
+```bash
+sbatch warm-up/run.sh
+```
 ### Reinforcement Learning: GRPO
 
 After the warm-up, we apply GRPO (Generalized Reinforcement with Prompt Optimization), which enables further improvement through self-improvement. The input data consists of only Q&A pairs:
@@ -44,6 +49,12 @@ After the warm-up, we apply GRPO (Generalized Reinforcement with Prompt Optimiza
   },
  ...
 ]
+```
+To start the GRPO (Slurm), use the following command:
+
+```bash
+sbatch scripts-sports-nba/nba-GRPO.sh
+sbatch scripts-sports-nfl/nfl-GRPO.sh
 ```
 
 ## Run Inferring 💁🏼
@@ -62,7 +73,7 @@ The setup of different LLMs is in **./tsllm/models/**
 ## Dataset📖
 We curate a dataset and propose our benchmark **"GAMETime: Generating And Modeling Events from TIME series"**. This dataset contains a **real-valued time series** of **1.7 million timestamps** along with corresponding **event sequences**.
 
-## If you're interested in our sports data 🛎️
+## If you're interested in our Events-Times data 🛎️
 
 <img src="./resource/event.png" alt="Game Events" width="250"/>
 
