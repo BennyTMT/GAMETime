@@ -8,6 +8,10 @@ We curate a dataset and propose our benchmark **"GAMETime: Generating And Modeli
 ## Setup 🔧
 For our environment configuration and required additional packages, please refer to **"environment.yml"**.
 
+Our pipeline for GRPO training is built upon the [Open-r1](https://github.com/huggingface/open-r1) framework, for which we express our sincere appreciation. 
+For details regarding the experimental environment setup, you might want ot refer to [Open-r1](https://github.com/huggingface/open-r1).
+
+
 ## Run Experiments 💁🏼
 ./batch.sh (or ./slow.sh) is the shell built to submit tasks in **./script/**
 
@@ -15,6 +19,9 @@ Our main configuration files about LLMs and experiments are located in **"./tsll
 
 ## How to setup prompts
 run **./script/build.sh** and change the conditions in the shell script for different experiments 
+
+
+
 
 And the prompts will be/have been saved in **"./prompt/"**
 
