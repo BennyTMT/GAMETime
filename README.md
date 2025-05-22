@@ -25,7 +25,7 @@ For models that initially lack any understanding or reasoning ability in the dom
     "label": "d",
     "pred": "d"
   },
-  ...
+  [...]
 ]
 ```
 (The 'process' is distilled solution from DeepSeek-R1-Distill-Qwen-32B and 'instruction' is our question.) 
