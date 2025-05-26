@@ -77,8 +77,7 @@ And the prompts will be/have been saved in **"./prompt/"**
 ./batch.sh (or ./slow.sh) is the shell built to submit tasks in **./script/**
 Our main configuration files about LLMs and experiments are located in **"./tsllm/config/"**.
 
-
-## How to set up LLMs
+### How to set up LLMs
 The setup of different LLMs is in **./tsllm/models/**
 
 ## Dataset📖
