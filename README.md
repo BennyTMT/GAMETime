@@ -99,7 +99,7 @@ Or you can find the script in the resource file to download the HTML and extract
 
 
 ## Citation
-If you find our work useful, please kindly cite as follows:
+If you find our work helpful, please kindly cite as follows:
 ```bibtex
 @article{tan2025inferring,
     title={Inferring Events from Time Series using Language Models},
