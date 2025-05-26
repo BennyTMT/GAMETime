@@ -62,7 +62,7 @@ Our two-stage post-training enables a 1.5B model without domain-specific reasoni
 
 <img src="./resource/post-train.png" alt="Post-training Results" width="600"/>
 
-(Rewards with training step can be found in Paper`s Fig 6)
+(Rewards With Training Steps can be found in [Paper`s Figure 6](https://arxiv.org/pdf/2503.14190))
 
 #### We believe most reasoning tasks can be improved through this two-stage Post-training: 
 1. Fill knowledge gaps and 2. Self-improvement.
