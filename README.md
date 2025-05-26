@@ -99,3 +99,14 @@ We will provide you with a download link, **aiming to complete the process withi
 Or you can find the script in the resource file to download the HTML and extract the data yourself.
 
 
+## Citation
+If you find our work useful, please kindly cite as follows:
+```bibtex
+@article{tan2025inferring,
+    title={Inferring Events from Time Series using Language Models},
+    author={Tan, Mingtian and Merrill, Mike A and Gottesman, Zack and Althoff, Tim and Evans, David and Hartvigsen, Tom},
+    journal={arXiv preprint arXiv:2503.14190},
+    year={2025}
+}
+
+
