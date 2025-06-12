@@ -25,7 +25,6 @@ For models that initially **lack** any understanding or reasoning ability in the
     "label": "d",
     "pred": "d"
   },
-  ...
 ]
 ```
 (The 'process' is distilled solution from DeepSeek-R1-Distill-Qwen-32B and 'instruction' is our question.) 
@@ -47,7 +46,6 @@ After the warm-up, we apply GRPO (Generalized Reinforcement with Prompt Optimiza
     "output": "c",
     "key": "DEN_OKC_Jan 31, 2024.csv7095"
   },
- ...
 ]
 ```
 To start the GRPO (Slurm), use the following command:
