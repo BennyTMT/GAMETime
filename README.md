@@ -9,7 +9,7 @@ For our environment configuration and required additional packages, please refer
 Our pipeline for GRPO training is built upon the [Open-r1](https://github.com/huggingface/open-r1) framework, for which we express our sincere appreciation. 
 For details regarding the experimental environment setup, you might want ot refer to [Open-r1](https://github.com/huggingface/open-r1).
 
-## 🚀🚀 Post-training Significantly Improves Event Inference
+## 🚀🚀 Post-training Significantly Improves Events-Times Reasoning
 
 ### Warm-up Stage: Knowledge Distillation
 
