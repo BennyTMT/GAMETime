@@ -1,4 +1,5 @@
 # Inferring Events from Time Series using Language Models
+## What’s happening behind the time series.
 ![Events Reasoning](./script/pipline.png)
 
 ### [Paper Link](https://arxiv.org/pdf/2503.14190).
